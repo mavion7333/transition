@@ -1,0 +1,45 @@
+.trans{
+   text-transform: uppercase;
+   position: relative;
+   display: flex;
+   gap: 10px;
+   transform: scaley(1.6);   
+   margin: 50px;
+}
+.hey, .how{
+    border-bottom: 2px solid;
+}
+.are, .you{
+    border-top: 2px solid;
+}
+.hey {
+    transform: rotate(-30deg);
+}
+.how {
+    transform: rotate(55deg);
+    position: absolute;
+    left: 39px;
+    top: 9px;
+}
+.are {
+    position: absolute;
+    top: 38px;
+    left: -9px;
+    transform: skew(20deg);
+    transform: rotate(54deg);
+}
+.you {
+    position: absolute;
+    top: 49px;
+    left: 31px;
+    transform: rotate(-25deg);
+}
+
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover p{
+    display: block;
+}
